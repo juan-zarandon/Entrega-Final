@@ -1,0 +1,40 @@
+//anidammiento de header, nav y ul//
+header {
+        background-color: $color-header-fondo;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 20px;
+        margin: 0px 30px;
+      
+        nav {
+          ul {
+            color: $color-header-texto;
+            list-style: none;
+            display: flex;
+            gap: 30px;
+          }
+        }
+      }
+
+      a:hover {
+        /* aplico pseudo clase que cambie el estado de la etiqueta*/
+        color: $color-ancla;
+        text-decoration: underline;
+      }
+
+      .logo {
+        margin-left: 10%;
+        width: 10%;
+      }
+      
+      .logo2 {
+        margin-left: 10%;
+        width: 15%; 
+    }
+
+    a {
+        color: $color-ancla;
+        text-decoration: none;
+        font-weight: bold;
+      }

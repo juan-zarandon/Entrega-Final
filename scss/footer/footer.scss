@@ -1,0 +1,31 @@
+
+  /* footer */
+footer {
+    background-color: $color-footer-fondo;
+    height: 40%;
+    text-align: center;
+    font-weight: bolder;
+    margin: 30px;
+  }
+  
+  li ul a {
+    text-decoration: none;
+  }
+  img {
+    margin-left: 25%;
+  }
+  
+  .imagenes-galeria {
+    margin-left: 0%;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 10px;
+  }
+  
+  footer ul li a {
+    color: $color-footer-texto;
+    line-height: 1.5;
+  }
+  
